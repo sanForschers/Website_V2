@@ -1,6 +1,7 @@
 .navbutton {
 	float: right;
 	margin-left: -10%;
+	background: none;
 }
 .link {
 	background-color: transparent;
@@ -10,6 +11,7 @@
 	font-size: 33px;	
 	font-weight: 200;	
 	text-align: center;
+	background: none;
 
 
 	font-size:2vw;

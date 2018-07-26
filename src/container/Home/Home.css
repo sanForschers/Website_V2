@@ -1,17 +1,16 @@
 * {
-	background: linear-gradient(-45deg, #100, #010, #002,#111);
+	background: linear-gradient(-75deg, #2F3B82 0%, #141D5B 24%, #131B57 26%, #205 48%,#209 98%,#101 98%);
 	background-size: 400% 400%;
-	-webkit-animation: Gradient 10s ease infinite;
+	-webkit-animation: Gradient 5s ease infinite;
 	-moz-animation: Gradient 10s ease infinite;
 	animation: Gradient 10s ease infinite;
-	
-
+	background-repeat: no-repeat;
 }
 @-webkit-keyframes Gradient {
 	0% {
 		background-position: 0% 50%
 	}
-	50% {
+	70% {
 		background-position: 100% 50%
 	}
 	100% {
@@ -42,12 +41,29 @@
 		background-position: 0% 50%
 	}
 }
-.home h1 {
 
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	80% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
+.home h1 {
+	background:none;
+	mix-blend-mode: color-dodge;
 	color: #FFF;	
 	float: left;
-	margin-top: 0;
+	margin-top:-0.5%;
 	font-family: Futura;	
-	font-size: 63px;	
+	font-size: 3vw;	
 	font-weight: 700;	line-height: 82px;	text-align: center;
 }
+
+
+
+
