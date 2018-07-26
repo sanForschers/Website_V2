@@ -1,0 +1,16 @@
+.navbutton {
+	float: right;
+	margin-left: -10%;
+}
+.link {
+	background-color: transparent;
+	border:none;
+	color: #FFF;	
+	font-family: Futura;	
+	font-size: 33px;	
+	font-weight: 200;	
+	text-align: center;
+
+
+	font-size:2vw;
+}
