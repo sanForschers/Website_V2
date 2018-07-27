@@ -24,6 +24,7 @@
 	font-weight: 600;
 	font-size: 2vw;
 	mix-blend-mode: color-dodge;
+	margin-left: 1%;
 	z-index: 200;
 }
 .blogText {

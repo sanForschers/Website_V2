@@ -1,11 +1,15 @@
 .profiles_cards{
 	box-shadow: 5px 6px 4px 0 rgba(0,0,0,0.5); 
 	align-items: flex-start;
+	background: none;
+	height: 30vh;
+	
+
 
 }
 .cards_title{
 	
-	color: #FFF;	
+	background: none;
 	font-family: Futura;	
 	font-size: 24px;	
 	font-weight: 500;	
@@ -13,4 +17,7 @@
 	line-height: 31px;	
 	text-align: center;
 
+}
+.desgn{
+	color: #66ffff;
 }

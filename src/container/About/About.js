@@ -56,16 +56,14 @@ state ={
   return(
 
  <div className ="profiles">
-   <h1 className ="text-left mainHeading" > About Us </h1>
+   <h1 className ="text-left mainHeading"> About Us </h1>
    
    <Container fluid>
    	<Row className="upperrow">
    		{peopleCrads1}
-
    	</Row>
    	<Row className="lowerrow ">
    		{peopleCrads2}
-   		<p>soharfisfskdfisjdfsjid</p>
    	</Row>
 
     </Container>

@@ -10,7 +10,6 @@ class App extends Component {
     return (
     	<Aux>
       <div >
-       <Home/> 
        <About/>
       </div>
       </Aux>

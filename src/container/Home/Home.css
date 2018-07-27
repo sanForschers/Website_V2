@@ -1,5 +1,5 @@
 .home {
-	background: linear-gradient(-75deg,#900, #114 20%, #308 80%,#139 88%, #139 28%,#191 100%);	
+	background: linear-gradient(-75deg,#900, #114 20%, #308 80%,#139 88%, #139 28%,#191 94%);	
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 10s ease infinite;
 	-moz-animation: Gradient 10s ease infinite;
@@ -33,7 +33,7 @@
 
 
 .home h1 {
-
+	mix-blend-mode: difference;
 	color: #FFF;	
 	float: left;
 	margin-top: -0.5%;
@@ -42,5 +42,5 @@
 	font-weight: 700;	
 	line-height: 82px;	
 	text-align: center;
-	background: none;
+
 }
