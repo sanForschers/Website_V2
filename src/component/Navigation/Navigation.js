@@ -1,9 +1,12 @@
 import React from 'react';
 import Navlinks from './Navlinks/Navlinks';
 
-const Navigation =() => {
+const Navigation =(props) => {
 	return(
-		<Navlinks/>);
+		<div>
+		<Navlinks/>
+		{props.children}
+		</div>);
 
 }
 export default Navigation;
