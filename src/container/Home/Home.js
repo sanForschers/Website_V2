@@ -9,7 +9,7 @@ class Home extends React.Component {
 		return(<div className="home">
 			<Navigation>
 			<h1>san_Forschers</h1>
-			<Logo/>
+			<Logo/><br /><br/> <br /><br/><br/>/<br/>
 			</Navigation>
 			<Blogs/>
 

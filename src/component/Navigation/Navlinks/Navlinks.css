@@ -7,12 +7,12 @@
 	background-color: transparent;
 	border:none;
 	color: #FFF;	
-	font-family: Futura;	
-	font-size: 33px;	
-	font-weight: 100;	
+	font-family: 'EB Garamond', serif;
+
+	font-size: 1.6vw;	
+	padding: 0 1vw ;
 	text-align: center;
 	background: none;
 
 
-	font-size:2vw;
 }

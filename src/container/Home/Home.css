@@ -1,7 +1,7 @@
-* {
-	background: linear-gradient(-75deg,#900, #114 20%, #308 80%,#3289 38%, #0157 48%, #091);	
+.home {
+	background: linear-gradient(-75deg,#900, #114 20%, #308 80%,#139 88%, #139 28%,#191 100%);	
 	background-size: 400% 400%;
-	-webkit-animation: Gradient 5s ease infinite;
+	-webkit-animation: Gradient 10s ease infinite;
 	-moz-animation: Gradient 10s ease infinite;
 	animation: Gradient 10s ease infinite;
 	
@@ -9,7 +9,7 @@
 }
 @-webkit-keyframes Gradient {
 	0% {
-		background-position: 8% 50%
+		background-position: 0% 50%
 	}
 	50% {
 		background-position: 100% 50%
@@ -31,28 +31,7 @@
 	}
 }
 
-@keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
-@keyframes Gradient {
-	0% {
-		background-position: 0% 50%
-	}
-	50% {
-		background-position: 100% 50%
-	}
-	100% {
-		background-position: 0% 50%
-	}
-}
+
 .home h1 {
 
 	color: #FFF;	
