@@ -1,0 +1,41 @@
+.profiles {
+  position: relative;
+  
+  width: 100%;
+  height: 100%;
+  background: radial-gradient(circle, #59086A 0%, #2D0020 92%, #F07CDA 260%);
+  background-repeat: no-repeat;
+  background-attachment :fixed;
+  padding: 0px;
+  margin-left: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+
+
+.mainHeading{
+	height: 195px;	width: 738px;	color: #FFF;	font-family: Futura;	
+  font-size: 7vw;	
+  font-weight: 700;	
+  line-height: 55px;	
+  text-align: center; 
+  margin-top: 0px ;
+  margin-left: 0px;
+
+}
+.profiles{
+	 flex: 0;
+  flexDirection: 'row';
+
+}
+.upperrow{
+
+ margin-top: -55px;
+ margin-left: 0px;
+
+}
+.lowerrow{
+	margin-top: 0px;
+	justify-content: right;
+}

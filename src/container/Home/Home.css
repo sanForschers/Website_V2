@@ -1,7 +1,7 @@
 * {
-	background: linear-gradient(-45deg, #100, #010, #002,#111);
+	background: linear-gradient(-75deg, #114 0%, #3089 100%,#328);	
 	background-size: 400% 400%;
-	-webkit-animation: Gradient 10s ease infinite;
+	-webkit-animation: Gradient 5s ease infinite;
 	-moz-animation: Gradient 10s ease infinite;
 	animation: Gradient 10s ease infinite;
 	
@@ -46,10 +46,11 @@
 
 	color: #FFF;	
 	float: left;
-	margin-top: 0;
+	margin-top: -0.5%;
 	font-family: Futura;	
-	font-size: 63px;	
+	font-size: 3vw;	
 	font-weight: 700;	
 	line-height: 82px;	
 	text-align: center;
+	background: none;
 }
