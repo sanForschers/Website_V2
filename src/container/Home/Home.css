@@ -1,5 +1,5 @@
 * {
-	background: linear-gradient(-75deg, #114 0%, #3089 100%,#328);	
+	background: linear-gradient(-75deg,#900, #114 20%, #308 80%,#3289 38%, #0157 48%, #091);	
 	background-size: 400% 400%;
 	-webkit-animation: Gradient 5s ease infinite;
 	-moz-animation: Gradient 10s ease infinite;
@@ -9,7 +9,7 @@
 }
 @-webkit-keyframes Gradient {
 	0% {
-		background-position: 0% 50%
+		background-position: 8% 50%
 	}
 	50% {
 		background-position: 100% 50%
@@ -31,6 +31,17 @@
 	}
 }
 
+@keyframes Gradient {
+	0% {
+		background-position: 0% 50%
+	}
+	50% {
+		background-position: 100% 50%
+	}
+	100% {
+		background-position: 0% 50%
+	}
+}
 @keyframes Gradient {
 	0% {
 		background-position: 0% 50%
