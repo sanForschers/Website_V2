@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import logo from './logo.svg';
 import './App.css';
 import Home from './container/Home/Home';
-import Aux from './hoc/Aux';
+import Aux from './hoc/Auxiliary';
 import About from './container/About/About';
 
 class App extends Component {
@@ -10,6 +10,7 @@ class App extends Component {
     return (
     	<Aux>
       <div >
+       <Home/> 
        <About/>
       </div>
       </Aux>
