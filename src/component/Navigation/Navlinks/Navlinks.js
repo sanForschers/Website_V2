@@ -4,10 +4,10 @@ import './Navlinks.css';
 const navlinks = () => {
 	return(
 		<div className="navbutton">
-		<button className="link">About Us</button>
-		<button className="link">Goals</button>
-		<button className="link">Projects</button>
-		<button className="link">Contact Us</button>
+		<span className="link">About Us</span>
+		<span className="link">Goals</span>
+		<span className="link">Projects</span>
+		<span className="link">Contact Us</span>
 				</div>);
 }
 

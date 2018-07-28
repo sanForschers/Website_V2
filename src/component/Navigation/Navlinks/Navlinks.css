@@ -4,6 +4,8 @@
 	background: none;
 	display: flex;
 	flex-flow: row;
+	float: left;
+	margin-left: 2vw;
 }
 .link {
 	background-color: transparent;
@@ -14,18 +16,30 @@
 	font-size: 1.6vw;	
 	padding: 0 1vw ;
 	cursor: pointer;
-	text-align: center;
+	text-decoration:none;
+    display: inline-block;
 	background: none;
 	border-bottom: none;
-	transition: border-bottom 0.3s ease;
+
 
 
 }
+.link:after {
+	content: '';
+display: block;
+height: 3px;
+width: 0;
+background: white;
+transition: width .5s ease, background-color .5s ease;
+}
+
+.link:hover:after {
+	width: 100%;
+background:white;
+}
+
 @media (max-width: 1024px) {
 	.navbutton {
 		flex-flow: column;
 	}
-}
-.link:hover {
-	border-bottom: 2px solid white;
 }
