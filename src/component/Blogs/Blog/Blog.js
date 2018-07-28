@@ -9,16 +9,17 @@ class Blog extends React.Component {
 	
 		render () {
 	return(
-				<div style= {{display:'flex' }}>
+				<div style= {{display:'flex' }} className="upr">
 		<div className="blog blurred_bg">
 
 		<h2>{this.state.head}</h2>
 		<p className="blogText">{this.state.text}</p>
 		</div>
 
-		<div style={{width:'40%'}} className="blog">
-		
-		<img/>
+		<div className="blog image">
+		<h2>{this.state.head1}</h2>
+		<p className="blogText">{this.state.text1}</p>
+		<img src="/"/>
 		</div>
 
 

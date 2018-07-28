@@ -11,7 +11,7 @@ class App extends Component {
     	<Aux>
       <div >
        <Home/> 
-       <About/>
+      
       </div>
       </Aux>
     );

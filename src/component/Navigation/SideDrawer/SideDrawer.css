@@ -6,15 +6,18 @@
 	right: 0;
 	top: 0;
 	z-index: 300;
-	background: linear-gradient(-75deg,#900, #114 20%, #308 80%,#139 88%, #139 28%,#191 94%);	
-	background-size: 400% 400%;
+	background: linear-gradient(-90deg, #114 0%, #308 60%,#139 98%, #139 08%, #1119 );	
+	padding: 32px 16px;
+	box-sizing: border-box;
+	box-shadow: 5px solid grey;
+
 	-webkit-animation: Gradient 10s ease infinite;
 	-moz-animation: Gradient 10s ease infinite;
 	animation: Gradient 10s ease infinite;
-	padding: 32px 16px;
-	box-sizing: border-box;
+	
 	transition: transform 0.3s ease-out;
-	box-shadow: 5px solid grey;
+	
+
 }
 @-webkit-keyframes Gradient {
 	0% {

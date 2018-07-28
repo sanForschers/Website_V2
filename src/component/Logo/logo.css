@@ -6,3 +6,29 @@
 	width: 20vw;
 	z-index: -100;
 }
+ @media (max-width: 375px){
+	.logo{
+		width: 60vw;
+		margin-left: 17%;
+		margin-top: 5%;
+	}
+
+
+ }
+
+@media (max-width: 320px){
+	
+	.logo{
+		width: 80vw;
+		margin-left: 10%;
+		margin-top: 2%;
+	}
+}
+@media (max-width: 425px){
+	
+	.logo{
+		width: 80vw;
+		margin-left: 10%;
+		margin-top: 10%;
+	}
+}

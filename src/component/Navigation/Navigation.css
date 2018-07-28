@@ -1,22 +1,32 @@
 @media(max-width: 1024px){
 	.desktopOnly {
 		display: none;
+		
+	
 }
 }
 
 @media(min-width: 1025px) {
 .mobileOnly {
 	display: none;
+	
+	position: absolute;
 }
 }
 .nav {
-
-	position: absolute;
+	
 	position: fixed;
 	color: white;
 	top: 0;
 	right: 0;
 	display: flex;
+	mix-blend-mode:luminosity;
+	background: #139;
 	box-sizing: border-box;
+	
 	z-index: 200;
+	margin-left: 2%;
+
+	
+	
 }

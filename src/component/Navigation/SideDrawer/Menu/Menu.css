@@ -12,10 +12,65 @@
     width: 40px;
     height: 6px;
     float: right;
-    border:2px solid white;
+    border:1px solid white;
     background-color: none;
     margin: 0.3vw;
     padding-right: 3px;
     transition: 0.4s;
 }
 
+ @media (min-width: 375px) and (min-height: 812px){
+   
+.container {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    right: 0vw;
+    top: 2vw;
+    background:  none;
+    
+
+   
+}
+
+.bar1, .bar2, .bar3 {
+    width: 10vw;
+    height: 6px;
+    float: right;
+    border:1px solid white;
+    background-color: none;
+    margin: 0.3vw;
+
+    padding-right: 3px;
+    transition: 0.4s;
+}
+
+
+ }
+ 
+@media (max-width: 768px){
+    
+    .container {
+    display: inline-block;
+    cursor: pointer;
+    position: absolute;
+    right: 0vw;
+    top: 2vw;
+    background:  none;
+    
+
+   
+}
+
+.bar1, .bar2, .bar3 {
+    width: 5vw;
+    height: 6px;
+    float: right;
+    border:1px solid white;
+    background-color: none;
+    margin: 0.3vw;
+
+    padding-right: 3px;
+    transition: 0.4s;
+}
+}
