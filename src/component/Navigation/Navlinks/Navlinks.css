@@ -2,6 +2,8 @@
 	float: right;
 	margin-left: -10%;
 	background: none;
+	display: flex;
+	flex-flow: row;
 }
 .link {
 	background-color: transparent;
@@ -11,8 +13,19 @@
 
 	font-size: 1.6vw;	
 	padding: 0 1vw ;
+	cursor: pointer;
 	text-align: center;
 	background: none;
+	border-bottom: none;
+	transition: border-bottom 0.3s ease;
 
 
+}
+@media (max-width: 1024px) {
+	.navbutton {
+		flex-flow: column;
+	}
+}
+.link:hover {
+	border-bottom: 2px solid white;
 }

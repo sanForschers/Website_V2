@@ -1,0 +1,22 @@
+@media(max-width: 1024px){
+	.desktopOnly {
+		display: none;
+}
+}
+
+@media(min-width: 1025px) {
+.mobileOnly {
+	display: none;
+}
+}
+.nav {
+
+	position: absolute;
+	position: fixed;
+	color: white;
+	top: 0;
+	right: 0;
+	display: flex;
+	box-sizing: border-box;
+	z-index: 200;
+}
