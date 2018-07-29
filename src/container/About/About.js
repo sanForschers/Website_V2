@@ -10,24 +10,24 @@ import sujay from '../../assets/sujayp.png';
 import sirish from '../../assets/sirish.png';
 import shriyesh from '../../assets/shriyesh.png';
 import sparsh from '../../assets/sparsh.png';
-import sukaran from '../../assets/sohardh.jpeg';
-
+import sukaran from '../../assets/sukaran.png';
+import Layout from '../../component/Layout/Layout';
 
 
 
 class About_Us extends React.Component{
 state ={
 	profiles1 : [
-	{ src: sohardh ,name: 'Sohardh Chobera' },
-	{ src: snigdha,name: "Snigdha Bhatnagar" },
-	{ src: sujay,name: "Sujay Srivastva" },
-	{ src: sirish,name: "Sirish Bhudolia" }
+	{ src: sohardh ,name: 'Sohardh Chobera', position: 'Design'},
+	{ src: snigdha,name: "Snigdha Bhatnagar", position: 'Web Development'},
+	{ src: sujay,name: "Sujay Srivastva", position: 'Project Management'},
+	{ src: sirish,name: "Sirish Bhudolia" , position : 'Competitive Programming'}
 	
 	],
 	profiles2: [
-	{ src: shriyesh,name: "Shriyesh Chandra" },
-	{ src: sparsh,name: "Sparsh Tayal" },
-	{ src: sukaran,name: "Sukaran Garover" }
+	{ src: shriyesh,name: "Shriyesh Chandra" ,position: 'Marketing and Publicity'},
+	{ src: sparsh,name: "Sparsh Tayal" ,position: 'Testing'},
+	{ src: sukaran,name: "Sukaran Garover",position: 'Event Management' }
 	]
 }
 
@@ -38,7 +38,7 @@ state ={
  		return(
  			
  			<Col sm="2"  >
-   			<Profiles name = {persons.name} src = {persons.src} />
+   			<Profiles name = {persons.name} src = {persons.src} position ={persons.position}/>
    		</Col>
 
  			)
@@ -47,7 +47,7 @@ state ={
  	let peopleCrads2 = this.state.profiles2.map(persons => {
  		return(
  			<Col sm="2"  >
-   			<Profiles name = {persons.name} src = {persons.src} />
+   			<Profiles name = {persons.name} src = {persons.src} position ={persons.position} />
 
    		</Col>
  			)
@@ -56,6 +56,7 @@ state ={
   return(
 
  <div className ="profiles">
+ <Layout />
    <h1 className ="text-left mainHeading"> About Us </h1>
    
    <Container fluid>
@@ -67,6 +68,7 @@ state ={
    	</Row>
 
     </Container>
+    <Layout />
    </div>
 
   );

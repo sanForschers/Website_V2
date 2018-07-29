@@ -11,7 +11,7 @@ class Home extends React.Component {
 			<Layout>
 			
 			<h1>san_Forschers</h1>
-			<Logo/><br /><br/> <br /><br/><br/>/<br/>
+			<Logo/>
 
 			<Blogs/>
 			</Layout>

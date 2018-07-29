@@ -21,13 +21,148 @@
 
 .upperrow{
 
- margin-top: -2.5%;
+ margin-top: -6.5%;
  margin-left: 0px;
  background: none;
  justify-content: center;
 
 }
 .lowerrow{
-	margin-top: 2%;
+	margin-top: 5%;
 	justify-content: center;
+
 }
+
+
+
+@media (min-width: 1024px) and (min-height: 768px) {
+  .lowerrow{
+  margin-top: 5%;
+  justify-content: center;
+
+  }
+}
+
+@media (min-width: 1366px) and (min-height: 768px) {
+ .lowerrow{
+  margin-top: 2%;
+  justify-content: center;
+
+  }
+}
+ 
+ 
+@media(min-width:3840px) and (min-height:2160px) {
+  .lowerrow{
+  justify-content: center;
+  }
+  .mainHeading{
+    width: 90vw;
+  }
+  .profiles{
+    height: 100vh;
+  }
+}
+ 
+
+@media(min-width:1920px) and (min-height:1080px) {
+.lowerrow{
+  justify-content: center;
+  margin-top: 4%;
+  }
+  .mainHeading{
+    width: 90vw;
+  }
+  .profiles{
+    height: 101vh;
+  }
+}
+ 
+
+
+ 
+ 
+@media(min-width:2800px) and (min-height:1800px) {
+   .lowerrow{
+  justify-content: center;
+  margin-top: 4%;
+  }
+  .mainHeading{
+    width: 90vw;
+  }
+  .profiles{
+    height: 100vh;
+  }
+}
+ 
+@media(min-width:2560px) and (min-height:1600px) {
+  .blog{
+    margin-top: 4%;
+
+  }
+}
+ 
+
+ 
+
+
+
+
+
+
+ @media (max-width: 375px) and (max-height: 812px){
+  .lowerrow{
+  justify-content: center;
+  margin-top: 12%;
+  }
+  .mainHeading{
+    width: 90vw;
+    font-size: 15vw;
+  }
+  .profiles{
+    height: 100%;
+  }
+  .pos{
+    margin-top: 5%;
+  }
+
+
+ }
+
+ @media (max-width: 425px) and (max-height: 1039px){
+  .lowerrow{
+  justify-content: center;
+  margin-top: 12%;
+  }
+  .mainHeading{
+    width: 90vw;
+    font-size: 15vw;
+  }
+  .profiles{
+    height: 100%;
+  }
+  .pos{
+    margin-top: 5%;
+  }
+
+
+ }
+
+
+ @media (max-width: 375px) and (max-height: 1039px){
+
+
+ }
+
+@media (max-width: 320px){
+
+
+
+ }
+ @media (max-width: 425px){
+
+  
+}
+
+
+ 
