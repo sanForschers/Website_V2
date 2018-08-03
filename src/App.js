@@ -10,8 +10,8 @@ class App extends Component {
     return (
     	<Aux>
       <div >
-
-       <About/>
+      <Home/>
+      <About/>
       </div>
       </Aux>
     );
