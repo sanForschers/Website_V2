@@ -1,8 +1,12 @@
 import React from 'react';
 import Profiles from '../../component/Profiles/Profiles';
 import './About.css';
+
+import {Router, Route, hashHistory, IndexRoute, browserHistory, applyRouterMiddleware} from 'react-router';
+
 import { Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button, Row, Col, Container } from 'reactstrap';
+
   import { Navbar, Jumbotron } from 'react-bootstrap';
 import sohardh from '../../assets/sohardh.jpeg';
 import snigdha from '../../assets/snigdha.png';
@@ -45,7 +49,7 @@ state ={
 
 }
 
-showModal =(index) => {
+ showModal = (index) => {
 
   if(index==='Id001'){
     this.setState({displayModal:true})
