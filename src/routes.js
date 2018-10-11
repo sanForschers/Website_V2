@@ -1,18 +1,18 @@
 import React from 'react';
-import {Router, Route, hashHistory, IndexRoute, browserHistory, applyRouterMiddleware} from 'react-router';
+import {Router, Route, hashHistory, IndexRoute, applyRouterMiddleware} from 'react-router';
 import App from './App';
+import {BrowserRouter } from 'react-router-dom';
 import Home from './container/Home/Home';
-import Projects from '../../../../../learning/src/containers/Projects/Projects';
+//import Projects from '../../../../../learning/src/containers/Projects/Projects';
 import ReactDOM from 'react-dom';
 
-export default (
-	<Router history = {hashHistory}>
-		<Route path ="/" component = {App}>
-			<IndexRoute component = {Home} />
-			
-    			 <Route path="/projects" component={Projects}/>
-    		
-			
-		</Route>
+const routes = (props) =>{
+	return(
+		<Router>
+		<Route path="/" exact component={Home} />
 	</Router>
 	);
+}
+  
+export default routes;
+	

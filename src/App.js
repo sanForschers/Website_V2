@@ -6,8 +6,8 @@ import Aux from './hoc/Auxiliary';
 import About from './container/About/About';
 import Contact from './container/Contact/Contact';
 
-class App extends Component {
-  render() {
+const App =(props)=> {
+
     return (
     	<Aux>
       <div>
@@ -16,7 +16,7 @@ class App extends Component {
       </div>
       </Aux>
     );
-  }
+  
 }
 
 export default App;
