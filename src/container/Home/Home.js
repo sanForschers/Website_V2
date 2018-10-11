@@ -4,7 +4,7 @@ import './Home.css';
 import Logo from '../../component/Logo/Logo';
 import Blogs from '../../component/Blogs/Blogs';
 
-const home =(props)=>{
+const home = (props)=>{
 
 		return(
 			<div className="home">
@@ -20,4 +20,4 @@ const home =(props)=>{
 	
 }
 
-export default Home;
+export default home;
