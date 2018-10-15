@@ -8,13 +8,10 @@ const home = (props)=>{
 
 		return(
 			<div className="home">
-			<Layout>
-			
 			<h1>san_Forschers</h1>
 			<Logo/>
 
 			<Blogs/>
-			</Layout>
 			</div>
 			);
 	

@@ -1,16 +1,19 @@
 import React from 'react';
-import {Router, Route, hashHistory, IndexRoute, applyRouterMiddleware} from 'react-router';
+import {Route} from 'react-router-dom';
 import App from './App';
-import {BrowserRouter } from 'react-router-dom';
 import Home from './container/Home/Home';
 //import Projects from '../../../../../learning/src/containers/Projects/Projects';
 import ReactDOM from 'react-dom';
+import About_Us from './container/About/About'
 
 const routes = (props) =>{
 	return(
-		<Router>
+
+		<div>
 		<Route path="/" exact component={Home} />
-	</Router>
+		<Route path="/about" component={About_Us} />
+		</div>
+
 	);
 }
   

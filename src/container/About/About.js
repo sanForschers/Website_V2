@@ -2,7 +2,7 @@ import React from 'react';
 import Profiles from '../../component/Profiles/Profiles';
 import './About.css';
 
-import {Router, Route, hashHistory, IndexRoute, browserHistory, applyRouterMiddleware} from 'react-router';
+import {Router, Route, hashHistory, IndexRoute, browserHistory, applyRouterMiddleware} from 'react-router-dom';
 
 import { Card, CardImg, CardText, CardBody,
   CardTitle, CardSubtitle, Button, Row, Col, Container } from 'reactstrap';
